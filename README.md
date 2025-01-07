@@ -4,4 +4,4 @@ website minimalista feito com html, css e javascript.
 - um megamenu responsivo;
 - e um redirecionamento de página como feito no começo
 
-obs: o styles.css e o 
+obs: o styles.css e o script.js estão dentro da pasta assets
