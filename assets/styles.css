@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: 'Forum', Helvetica, sans-serif;
+    background-color: #004243; /* Cor de fundo similar ao vinho */
+    color: #fff; /* Cor do texto em branco para contraste */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center;
+    height: 100vh; /* Altura total da viewport */
+}
+
+.logo h2 {
+    font-family: 'Chapaza', sans-serif;
+    letter-spacing: -1px;
+    font-size: 128px;
+    line-height: 0.8;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 36px;
+    margin-bottom: 46px;
+}
+
+.country_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.country_title {
+    font-family: 'Microsoft sans-serif', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+#country {
+
+    width: 280px;
+    height: 30px;
+
+}
+
+.content-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_button {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 120px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.shop_button {
+    margin-top: 30px;
+    height: auto; /* Deixe a altura automática para que se ajuste ao conteúdo */
+    line-height: normal; /* Pode ajudar a centralizar verticalmente o texto */
+}
+
+.shop_button:hover {
+    background-color: #015455;
+    color: white;
+}
+
+.shop_button:disabled {
+    color: #777777;
+    border-color: #777;
+    cursor: not-allowed;
+    pointer-events: none;
+    transition: none;
+}
+
+
+@font-face {
+    font-family: 'Chapaza';
+    font-weight: 700;
+    src: url(Chapaza.ttf);
+}
+
+@font-face {
+    font-family: 'Forum';
+    src: url(Forum-Regular.ttf);
+}
